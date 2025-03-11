@@ -6,6 +6,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 }).addTo(map);
 
+// I used ChatGPT to help with debugging and formatting
 // Separate country layer for mocha.js
 var countryLayer1 = L.geoJSON(null, {
     style: styleMocha,
